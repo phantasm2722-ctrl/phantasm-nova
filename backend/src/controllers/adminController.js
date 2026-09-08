@@ -167,7 +167,7 @@ export async function forgotPassword(req, res, next) {
     res.json({
       ok: true,
       message:
-        "If that email is registered, instructions to change your password have been sent.",
+        "If that email is registered, instructions to change your password have been sent.Check the spam messages also, some time it will be redirected to spam messages",
     });
   } catch (err) {
     next(err);

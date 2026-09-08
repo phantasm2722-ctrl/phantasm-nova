@@ -88,7 +88,7 @@ const handleSubmit = async (e) => {
             <p className="mt-4 leading-7 text-slate-300">
               If an account exists with <br />
               <span className="font-medium text-blue-300">{email}</span>,
-              you'll receive instructions to reset your password.
+              you'll receive instructions to reset your password. Also check the spam messages for instructions to follow.
             </p>
           </div>
         )}
